@@ -7,9 +7,9 @@ static char *font = "Fira Code Nerd Font:pixelsize=12:antialias=true:autohint=tr
 #if FONT2_PATCH
 /* Spare fonts */
 static char *font2[] = {
-	"JoyPixels:pixelsize=10:antialias=true:autohint=true"
+	"JoyPixels:pixelsize=10:antialias=true:autohint=true",
+	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", 
 /*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
-/*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
 };
 #endif // FONT2_PATCH
 
