@@ -8,8 +8,36 @@ static char *font = "Fira Code Nerd Font:pixelsize=12:antialias=true:autohint=tr
 /* Spare fonts */
 static char *font2[] = {
 	"JoyPixels:pixelsize=10:antialias=true:autohint=true",
+	"DejaVuSansMono Nerd Font:style=Book",
+	"Fira Code,Fira Code Light:style=Light,Regular",
+	"Fira Code,Fira Code Medium:style=Medium,Regular",
+	"Fira Code,Fira Code Retina:style=Retina,Regular",
+	"Fira Code,Fira Code SemiBold:style=SemiBold,Regular",
+	"Fira Code:style=Bold",
+	"Fira Code:style=Regular",
+	"Fira Mono,Fira Mono Medium:style=Medium,Regular",
+	"Fira Mono:style=Bold",
+	"Fira Mono:style=Regular",
+	"FiraCode NF:style=Bold",
+	"FiraCode NF:style=Light,Regular",
+	"FiraCode NF:style=Medium,Regular",
+	"FiraCode NF:style=Regular",
+	"FiraCode NF:style=Retina,Regular",
+	"FiraCode NF:style=SemiBold,Regular",
+	"FiraCode Nerd Font Mono:style=Bold",
+	"FiraCode Nerd Font Mono:style=Light,Regular",
+	"FiraCode Nerd Font Mono:style=Medium,Regular",
+	"FiraCode Nerd Font Mono:style=Regular",
+	"FiraCode Nerd Font Mono:style=Retina,Regular",
+	"FiraCode Nerd Font Mono:style=SemiBold,Regular",
+	"FiraCode Nerd Font:style=Bold",
+	"FiraCode Nerd Font:style=Light,Regular",
+	"FiraCode Nerd Font:style=Medium,Regular",
+	"FiraCode Nerd Font:style=Regular",
+	"FiraCode Nerd Font:style=Retina,Regular",
+	"FiraCode Nerd Font:style=SemiBold,Regular",
 	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", 
-/*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
+	"Iosevka,Iosevka Nerd Font:style=Regular,Book",
 };
 #endif // FONT2_PATCH
 
