@@ -38,6 +38,8 @@ static char *font2[] = {
 	"FiraCode Nerd Font:style=SemiBold,Regular",
 	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", 
 	"Iosevka,Iosevka Nerd Font:style=Regular,Book",
+	"Sazanami Mincho, :style=Mincho-Regular,Regular",
+	"Sazanami Gothic, :style=Gothic-Regular,Regular",
 };
 #endif // FONT2_PATCH
 
@@ -166,7 +168,7 @@ unsigned int tabspaces = 8;
 
 #if ALPHA_PATCH
 /* bg opacity */
-float alpha = 0.8;
+float alpha = 0.9;
 #if ALPHA_GRADIENT_PATCH
 float grad_alpha = 0.54; //alpha value that'll change
 float stat_alpha = 0.46; //constant alpha value that'll get added to grad_alpha
@@ -201,10 +203,10 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#add8e6", /* 256 -> cursor */
-	"#555555", /* 257 -> rev cursor*/
-	"#000000", /* 258 -> bg */
-	"#e5e5e5", /* 259 -> fg */
+	"#FFFFFF", /* 256 -> cursor */
+	"#717CB4", /* 257 -> rev cursor*/
+	"#0F111A", /* 258 -> bg */
+	"#8F93A2", /* 259 -> fg */
 };
 
 
