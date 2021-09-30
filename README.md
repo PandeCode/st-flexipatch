@@ -276,3 +276,25 @@ Refer to [https://st.suckless.org/](https://st.suckless.org/) for details on the
    - [xresources](https://st.suckless.org/patches/xresources/)
       - adds the ability to configure st via Xresources
       - during startup, st will read and apply the resources named in the resources[] array in config.h
+#define ALPHA_PATCH 1
+#define BLINKING_CURSOR_PATCH 1
+#define BOXDRAW_PATCH 1
+#define COPYURL_PATCH 1
+#define COPYURL_HIGHLIGHT_SELECTED_URLS_PATCH 1
+#define DYNAMIC_CURSOR_COLOR_PATCH 1
+#define EXTERNALPIPE_PATCH 1
+#define EXTERNALPIPEIN_PATCH 1
+#define FIXKEYBOARDINPUT_PATCH 1
+#define FONT2_PATCH 1
+#define HIDECURSOR_PATCH 1
+#define ISO14755_PATCH 0
+#define LIGATURES_PATCH 1
+#define NETWMICON_PATCH 1
+#define OPENURLONCLICK_PATCH 1
+#define OSC_10_11_12_2_PATCH 0
+#define RIGHTCLICKTOPLUMB_PATCH 1
+#define SWAPMOUSE_PATCH 1
+#define SYNC_PATCH 1
+#define VISUALBELL_1_PATCH 0
+#define W3M_PATCH 1
+#define WIDE_GLYPHS_PATCH 1
