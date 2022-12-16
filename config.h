@@ -3,12 +3,13 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Fira Code Nerd Font:pixelsize=12:antialias=true:autohint=true";
+static char *font = "Comic Shanns:pixelsize=12:antialias=true:autohint=true";
 #if FONT2_PATCH
 /* Spare fonts */
 static char *font2[] = {
 	"JoyPixels:pixelsize=10:antialias=true:autohint=true",
 	"DejaVuSansMono Nerd Font:style=Book",
+	"Comic Shanns",
 	"Fira Code,Fira Code Light:style=Light,Regular",
 	"Fira Code,Fira Code Medium:style=Medium,Regular",
 	"Fira Code,Fira Code Retina:style=Retina,Regular",
