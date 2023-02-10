@@ -7,6 +7,7 @@ static char *font = "Comic Shanns:pixelsize=12:antialias=true:autohint=true";
 #if FONT2_PATCH
 /* Spare fonts */
 static char *font2[] = {
+	"Comic Shanns:size=10:pixelsize=15:antialias=true:autohint=true",
 	"JoyPixels:pixelsize=10:antialias=true:autohint=true",
 	"DejaVuSansMono Nerd Font:style=Book",
 	"Comic Shanns",
@@ -417,8 +418,8 @@ static Shortcut shortcuts[] = {
 	{ XK_ANY_MOD,           XK_Print,       printsel,        {.i =  0} },
 	{ TERMMOD,              XK_Prior,       zoom,            {.f = +1} },
 	{ TERMMOD,              XK_Next,        zoom,            {.f = -1} },
-	{ TERMMOD,              XK_Plus,        zoom,            {.f = +1} },
-	{ TERMMOD,              XK_Subtract,    zoom,            {.f = -1} },
+	{ TERMMOD,              XK_plus,        zoom,            {.f = +1} },
+	{ TERMMOD,              XK_minus,    zoom,            {.f = -1} },
 	{ TERMMOD,              XK_Home,        zoomreset,       {.f =  0} },
 	{ TERMMOD,              XK_C,           clipcopy,        {.i =  0} },
 	{ TERMMOD,              XK_V,           clippaste,       {.i =  0} },
