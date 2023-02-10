@@ -3,41 +3,16 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Comic Shanns:pixelsize=12:antialias=true:autohint=true";
+
+static char *font = "FantasqueSansMono NFM:pixelsize=12:antialias=true:autohint=true";
 #if FONT2_PATCH
 /* Spare fonts */
 static char *font2[] = {
-	"Comic Shanns:size=10:pixelsize=15:antialias=true:autohint=true",
+	"FantasqueSansMono NFM:pixelsize=12:antialias=true:autohint=true",
+	"FantasqueSansMono NF:pixelsize=12:antialias=true:autohint=true",
+	"FantasqueSansMono Nerd Font:pixelsize=12:antialias=true:autohint=true",
 	"JoyPixels:pixelsize=10:antialias=true:autohint=true",
 	"DejaVuSansMono Nerd Font:style=Book",
-	"Comic Shanns",
-	"Fira Code,Fira Code Light:style=Light,Regular",
-	"Fira Code,Fira Code Medium:style=Medium,Regular",
-	"Fira Code,Fira Code Retina:style=Retina,Regular",
-	"Fira Code,Fira Code SemiBold:style=SemiBold,Regular",
-	"Fira Code:style=Bold",
-	"Fira Code:style=Regular",
-	"Fira Mono,Fira Mono Medium:style=Medium,Regular",
-	"Fira Mono:style=Bold",
-	"Fira Mono:style=Regular",
-	"FiraCode NF:style=Bold",
-	"FiraCode NF:style=Light,Regular",
-	"FiraCode NF:style=Medium,Regular",
-	"FiraCode NF:style=Regular",
-	"FiraCode NF:style=Retina,Regular",
-	"FiraCode NF:style=SemiBold,Regular",
-	"FiraCode Nerd Font Mono:style=Bold",
-	"FiraCode Nerd Font Mono:style=Light,Regular",
-	"FiraCode Nerd Font Mono:style=Medium,Regular",
-	"FiraCode Nerd Font Mono:style=Regular",
-	"FiraCode Nerd Font Mono:style=Retina,Regular",
-	"FiraCode Nerd Font Mono:style=SemiBold,Regular",
-	"FiraCode Nerd Font:style=Bold",
-	"FiraCode Nerd Font:style=Light,Regular",
-	"FiraCode Nerd Font:style=Medium,Regular",
-	"FiraCode Nerd Font:style=Regular",
-	"FiraCode Nerd Font:style=Retina,Regular",
-	"FiraCode Nerd Font:style=SemiBold,Regular",
 	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", 
 	"Iosevka,Iosevka Nerd Font:style=Regular,Book",
 	"Sazanami Mincho, :style=Mincho-Regular,Regular",
